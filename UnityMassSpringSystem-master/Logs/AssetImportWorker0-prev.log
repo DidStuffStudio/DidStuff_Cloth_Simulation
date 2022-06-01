@@ -1,0 +1,1968 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 8144 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/scott/Desktop/WorkingCloth/ClothTesting-184fda7b63a05bc5dd0c06632001f592a8874f85/UnityMassSpringSystem-master
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53059
+Successfully changed project path to: C:/Users/scott/Desktop/WorkingCloth/ClothTesting-184fda7b63a05bc5dd0c06632001f592a8874f85/UnityMassSpringSystem-master
+C:/Users/scott/Desktop/WorkingCloth/ClothTesting-184fda7b63a05bc5dd0c06632001f592a8874f85/UnityMassSpringSystem-master
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 165.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/scott/Desktop/WorkingCloth/ClothTesting-184fda7b63a05bc5dd0c06632001f592a8874f85/UnityMassSpringSystem-master/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
+    Vendor:   
+    VRAM:     1977 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006762 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 272.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.900 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1901ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1510ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (649ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (273ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016389 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 229.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.415 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6425ms)
+		BeginReloadAssembly (616ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (5583ms)
+			LoadAssemblies (347ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1707ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (206ms)
+			SetupLoadedEditorAssemblies (2610ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (230ms)
+				BeforeProcessingInitializeOnLoad (282ms)
+				ProcessInitializeOnLoadAttributes (1951ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (39ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2979 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3409.
+Total: 17.978300 ms (FindLiveObjects: 3.361500 ms CreateObjectMapping: 0.400200 ms MarkObjects: 13.884700 ms  DeleteObjects: 0.329200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/MassSpringSystem/Demo
+  artifactKey: Guid(d245e38ddabccca40a635b6b01ab0756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Demo using Guid(d245e38ddabccca40a635b6b01ab0756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12a130a8b0e28240adf54114c9b7b6b') in 0.046143 seconds 
+  Import took 0.070352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/MassSpringSystem/Demo/Demo.unity
+  artifactKey: Guid(0e285d4496d357043b0fb836b548d672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Demo/Demo.unity using Guid(0e285d4496d357043b0fb836b548d672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc59a88d23c9e7a08561ee3d468ae1b2') in 0.128580 seconds 
+  Import took 0.159154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/ClothTest.fbx
+  artifactKey: Guid(a625b9d812c109c4397ea61e9e670ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClothTest.fbx using Guid(a625b9d812c109c4397ea61e9e670ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119463aae455532e50fe6a7b8953ef7e') in 5.397194 seconds 
+  Import took 5.410507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/MassSpringSystem
+  artifactKey: Guid(d56dedaa12b38404ba93be760b2826f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem using Guid(d56dedaa12b38404ba93be760b2826f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd65213bf5400d57c2b65617cb575460') in 0.013971 seconds 
+  Import took 0.058316 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 36.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.1 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3486.
+Total: 14.188600 ms (FindLiveObjects: 0.764600 ms CreateObjectMapping: 7.699000 ms MarkObjects: 5.702800 ms  DeleteObjects: 0.020700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 753.448151 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.025816 seconds 
+  Import took 0.132742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.514605 seconds.
+  path: Assets/Nirvana.png
+  artifactKey: Guid(bbf37794e5083b346b2229db1e690f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nirvana.png using Guid(bbf37794e5083b346b2229db1e690f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb68cb3825740bdebc41c61b063f969') in 0.128135 seconds 
+  Import took 0.152679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.531729 seconds.
+  path: Assets/MassSpringSystem/Assets/Materials/Background.mat
+  artifactKey: Guid(b2a371f5389be1f4ea3196e34f3de07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Materials/Background.mat using Guid(b2a371f5389be1f4ea3196e34f3de07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64846bfe594839eb5faa26eb55fc2e1') in 46.322589 seconds 
+  Import took 65.454414 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.066054 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2665ms)
+		BeginReloadAssembly (463ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (48ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (194ms)
+		EndReloadAssembly (2068ms)
+			LoadAssemblies (272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (585ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (798ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (291ms)
+				ProcessInitializeOnLoadAttributes (458ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3495.
+Total: 5.620000 ms (FindLiveObjects: 0.553500 ms CreateObjectMapping: 0.196100 ms MarkObjects: 4.844000 ms  DeleteObjects: 0.024200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10186ms)
+		BeginReloadAssembly (1564ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (690ms)
+		EndReloadAssembly (8497ms)
+			LoadAssemblies (633ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1098ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (6574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (3415ms)
+				ProcessInitializeOnLoadAttributes (3036ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (50ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3497.
+Total: 5.215700 ms (FindLiveObjects: 0.329800 ms CreateObjectMapping: 0.096600 ms MarkObjects: 4.685000 ms  DeleteObjects: 0.102300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.285 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3289ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (56ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2792ms)
+			LoadAssemblies (255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (836ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (161ms)
+			SetupLoadedEditorAssemblies (1070ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (280ms)
+				ProcessInitializeOnLoadAttributes (715ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3499.
+Total: 8.937600 ms (FindLiveObjects: 0.502600 ms CreateObjectMapping: 0.238700 ms MarkObjects: 8.163400 ms  DeleteObjects: 0.030200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 98.628393 seconds.
+  path: Assets/MassSpringSystem/Assets/Materials/MassMaterial.mat
+  artifactKey: Guid(b92097e134a87c244b73c6d2c0a759dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Materials/MassMaterial.mat using Guid(b92097e134a87c244b73c6d2c0a759dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7f5bf845d3134867776f4bf07c7e3f') in 0.722818 seconds 
+  Import took 0.737147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/MassSpringSystem/Assets/Materials/TexturesCom_Fabric_Flannel4_1K_normal.tif
+  artifactKey: Guid(c57ad58f03054aa44b5c1b976c36e80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Materials/TexturesCom_Fabric_Flannel4_1K_normal.tif using Guid(c57ad58f03054aa44b5c1b976c36e80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2843cf18889d6335ff1c9c2f9fe3ff05') in 0.189298 seconds 
+  Import took 0.214786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/MassSpringSystem/Assets/Materials/TexturesCom_Fabric_Flannel4_1K_albedo.tif
+  artifactKey: Guid(272eb04f84ae56645b50c6cbd52596d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Materials/TexturesCom_Fabric_Flannel4_1K_albedo.tif using Guid(272eb04f84ae56645b50c6cbd52596d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81964d6b41380aa59af3c381d66f192') in 0.056406 seconds 
+  Import took 0.064459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/MassSpringSystem/Assets/Materials/TexturesCom_Fabric_Flannel4_1K_specular.png
+  artifactKey: Guid(05586931c6770154cb7a253bd34d8215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Materials/TexturesCom_Fabric_Flannel4_1K_specular.png using Guid(05586931c6770154cb7a253bd34d8215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0101e80eeaf27b9d14b73b9b3432d3b4') in 0.065587 seconds 
+  Import took 0.072770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001889 seconds.
+  path: Assets/MassSpringSystem/Assets/Materials/TexturesCom_Fabric_Flannel4_1K_roughness.tif
+  artifactKey: Guid(dabff03e77d4c1e40a33915f2770e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Materials/TexturesCom_Fabric_Flannel4_1K_roughness.tif using Guid(dabff03e77d4c1e40a33915f2770e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf2799876fa92038401b63f296569ec') in 0.058292 seconds 
+  Import took 0.078885 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012838 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.615 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2616ms)
+		BeginReloadAssembly (602ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (329ms)
+		EndReloadAssembly (1841ms)
+			LoadAssemblies (260ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (560ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (656ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (226ms)
+				ProcessInitializeOnLoadAttributes (386ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (81ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.5 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3539.
+Total: 13.063900 ms (FindLiveObjects: 0.733300 ms CreateObjectMapping: 0.268900 ms MarkObjects: 11.814200 ms  DeleteObjects: 0.244700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034195 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4232ms)
+		BeginReloadAssembly (1501ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2570ms)
+			LoadAssemblies (372ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (791ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (1025ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (293ms)
+				ProcessInitializeOnLoadAttributes (570ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (50ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (63ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.5 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3541.
+Total: 18.180700 ms (FindLiveObjects: 11.185600 ms CreateObjectMapping: 0.301400 ms MarkObjects: 6.663700 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032540 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.887 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2887ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (2428ms)
+			LoadAssemblies (256ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (618ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (1102ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (395ms)
+				ProcessInitializeOnLoadAttributes (658ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.5 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3543.
+Total: 8.002900 ms (FindLiveObjects: 0.502600 ms CreateObjectMapping: 0.226700 ms MarkObjects: 7.241900 ms  DeleteObjects: 0.029900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61.301821 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Output/DSTextDisplayFloat.cs
+  artifactKey: Guid(f3767778ac8b54342804c6a5a137db4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Output/DSTextDisplayFloat.cs using Guid(f3767778ac8b54342804c6a5a137db4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cc7178c9bff17b05cc17316f64c696') in 0.143430 seconds 
+  Import took 0.167027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059483 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/RaycastSensor.cs
+  artifactKey: Guid(803851415888c44bebb5d1bc4cbe6419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/RaycastSensor.cs using Guid(803851415888c44bebb5d1bc4cbe6419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e695ba3ceef4a739190343504356c29f') in 0.030419 seconds 
+  Import took 0.052861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034487 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/2d/makepolygoncollider2d/MakePolygonCollider2D.cs
+  artifactKey: Guid(6aa88f3145abc47b7a4e4c99f3c0152a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/2d/makepolygoncollider2d/MakePolygonCollider2D.cs using Guid(6aa88f3145abc47b7a4e4c99f3c0152a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d1bff1649f1b5295138fb3fda957ae') in 0.013843 seconds 
+  Import took 0.020721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016512 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/TTL.cs
+  artifactKey: Guid(bd5028d2cf1614a00b3aef4ba00028ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/TTL.cs using Guid(bd5028d2cf1614a00b3aef4ba00028ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45480f80487fb223b820095f8ff96878') in 0.013538 seconds 
+  Import took 0.020078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012982 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeuvcone/testmakeuvcone.cs
+  artifactKey: Guid(08d35a4154ec94a3b86c3361df10ead2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeuvcone/testmakeuvcone.cs using Guid(08d35a4154ec94a3b86c3361df10ead2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f538039f6e1a472bae56134e6dac6dd2') in 0.013886 seconds 
+  Import took 0.020637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011908 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DSAxis.cs
+  artifactKey: Guid(c07c7a4e3b51345529419f993c805b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DSAxis.cs using Guid(c07c7a4e3b51345529419f993c805b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d3c39808e5a424e10d29622e7bd7f6') in 0.011205 seconds 
+  Import took 0.017319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012220 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/CombineMeshes/junk/MeshCombiner.cs
+  artifactKey: Guid(7d27910abfd6f45cba18134321df0123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/CombineMeshes/junk/MeshCombiner.cs using Guid(7d27910abfd6f45cba18134321df0123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f690121a70fa076ae6245fdba0218f0d') in 0.010626 seconds 
+  Import took 0.018056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011732 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Art/Resources/MaterialFactory.cs
+  artifactKey: Guid(099918fd66601478cb7d34bfb90327fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Art/Resources/MaterialFactory.cs using Guid(099918fd66601478cb7d34bfb90327fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd689b01206589a185d04554c3b34cb33') in 0.012167 seconds 
+  Import took 0.018248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011852 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Audio/DSAudioStop.cs
+  artifactKey: Guid(fba219327c7fc4d9297f6ff91307eedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Audio/DSAudioStop.cs using Guid(fba219327c7fc4d9297f6ff91307eedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5d2c0d0c6bd88b787c63e65a8bfb1f') in 0.011403 seconds 
+  Import took 0.018292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010892 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/SpinMeAllAxes.cs
+  artifactKey: Guid(c0cf1a78af82045ab8e7a3e3993c1f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/SpinMeAllAxes.cs using Guid(c0cf1a78af82045ab8e7a3e3993c1f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc6256d7f22eb50abd5b7b864b32bad') in 0.009212 seconds 
+  Import took 0.017523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012162 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makemultisubmeshquad/testmakemultisubmeshquad.cs
+  artifactKey: Guid(e0d244b834bef47f09472ebf306c1326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makemultisubmeshquad/testmakemultisubmeshquad.cs using Guid(e0d244b834bef47f09472ebf306c1326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62386ba8f7576e5914b1bdb6df18b67b') in 0.011143 seconds 
+  Import took 0.017467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011162 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainDamager/TerrainDamageConfig.cs
+  artifactKey: Guid(edc2d51d9c5f34aeb9e6b10dae222470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainDamager/TerrainDamageConfig.cs using Guid(edc2d51d9c5f34aeb9e6b10dae222470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6310b2f73e948b55877d58f3e39fd6eb') in 0.012001 seconds 
+  Import took 0.018603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011838 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentKeyUpDown.cs
+  artifactKey: Guid(9354d737a545d47f38d18aae8e8c4b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentKeyUpDown.cs using Guid(9354d737a545d47f38d18aae8e8c4b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546a1d09154dbb2ad2425265aa5aae7b') in 0.016538 seconds 
+  Import took 0.023046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010890 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/BuildingBlocks/BuildingBlocks.cs
+  artifactKey: Guid(b6d05648f98ef479f99f7d7c202b5991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/BuildingBlocks/BuildingBlocks.cs using Guid(b6d05648f98ef479f99f7d7c202b5991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff00b590f374f4801a9d221f26d8b45') in 0.012737 seconds 
+  Import took 0.019965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012428 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSColorizeSetColor.cs
+  artifactKey: Guid(ab20d31ddc2ba417684e865525990375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSColorizeSetColor.cs using Guid(ab20d31ddc2ba417684e865525990375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324d2b7cb5a54e64b8e81e319200f1a7') in 0.011459 seconds 
+  Import took 0.018806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014453 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainDamager/TerrainPreAdjustment.cs
+  artifactKey: Guid(bf2a96815d57d4aa593414324c514ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainDamager/TerrainPreAdjustment.cs using Guid(bf2a96815d57d4aa593414324c514ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d0de147be1a7f1d986f6ef51b032f5') in 0.011687 seconds 
+  Import took 0.020586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018051 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/RotateUVs/RotateUVs.cs
+  artifactKey: Guid(301b54ca08e8e4f2a90f5f635b8f81e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/RotateUVs/RotateUVs.cs using Guid(301b54ca08e8e4f2a90f5f635b8f81e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2342e785d2c1da568f72eeeda6e1dd') in 0.013846 seconds 
+  Import took 0.019787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012327 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/IDatasackTouchable.cs
+  artifactKey: Guid(56f03fd9b4637466c8e78e30e63b1e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/IDatasackTouchable.cs using Guid(56f03fd9b4637466c8e78e30e63b1e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cff3e6dc0caea6a96ec78ed1d1ad36f') in 0.011510 seconds 
+  Import took 0.017537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013307 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackScalars.cs
+  artifactKey: Guid(d15f3c2fa8c414eea92eba1b72e3871d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackScalars.cs using Guid(d15f3c2fa8c414eea92eba1b72e3871d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c773d1b08caada28728eb5ee64f0c601') in 0.014135 seconds 
+  Import took 0.020975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012255 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeextrusion/testmakeextrusion.cs
+  artifactKey: Guid(3fd8e5db65de34b45bfa7b2ecab9f755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeextrusion/testmakeextrusion.cs using Guid(3fd8e5db65de34b45bfa7b2ecab9f755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7438953e600bacba302bee58c698570') in 0.012179 seconds 
+  Import took 0.018923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013187 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSTextSelectInt.cs
+  artifactKey: Guid(5240ea5e98bd94f22a12226d8ebfbda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSTextSelectInt.cs using Guid(5240ea5e98bd94f22a12226d8ebfbda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343def206a055b0fcffd18b0f5a7957b') in 0.011043 seconds 
+  Import took 0.017114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013239 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DSSetValue.cs
+  artifactKey: Guid(a5bf73c8158d145dead02b5f70ac00f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DSSetValue.cs using Guid(a5bf73c8158d145dead02b5f70ac00f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeea2adbf4de58874b0a51369e4bf54') in 0.009527 seconds 
+  Import took 0.018692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012159 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/SpinMeY.cs
+  artifactKey: Guid(385cc345af53443929704d0d7ed5f868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/SpinMeY.cs using Guid(385cc345af53443929704d0d7ed5f868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d03a3998368579176772351e03c876') in 0.009619 seconds 
+  Import took 0.018792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011210 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSButtonProxy.cs
+  artifactKey: Guid(3890352ec63474d46a0bdcb9f0a560de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSButtonProxy.cs using Guid(3890352ec63474d46a0bdcb9f0a560de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860b32d9f48dff713ec59b2603db3e72') in 0.012028 seconds 
+  Import took 0.018425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012960 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSCameraControl.cs
+  artifactKey: Guid(90e8628a28ede410384cf7ff2986a382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSCameraControl.cs using Guid(90e8628a28ede410384cf7ff2986a382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df0ac39887af33964966b548279437f') in 0.011179 seconds 
+  Import took 0.018480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014131 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackSet.cs
+  artifactKey: Guid(0eabe5abaa5754709ace3b471d7f78eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackSet.cs using Guid(0eabe5abaa5754709ace3b471d7f78eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3302c2768de31a1f9cfc41f8f995f739') in 0.013037 seconds 
+  Import took 0.020360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013384 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/MakeLines2D/MakeLines2D.cs
+  artifactKey: Guid(ac02bf25aba624eb79e69ef9551972f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/MakeLines2D/MakeLines2D.cs using Guid(ac02bf25aba624eb79e69ef9551972f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7d39bf4d995fadc83da1196c17d86f') in 0.011952 seconds 
+  Import took 0.018764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014412 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/Ballistic3D.cs
+  artifactKey: Guid(4c568ed1e4a03426f9751739334c2b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/Ballistic3D.cs using Guid(4c568ed1e4a03426f9751739334c2b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53f96da33c9201146214a818990b4bf') in 0.026686 seconds 
+  Import took 0.033013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014386 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeuvcylinder/testmakeuvcylinder.cs
+  artifactKey: Guid(53181603268ef4815833293d1b334670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeuvcylinder/testmakeuvcylinder.cs using Guid(53181603268ef4815833293d1b334670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9ccd05da8025fd3a90c58a9f3a1abb') in 0.011385 seconds 
+  Import took 0.017195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013376 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSAnimatorControl.cs
+  artifactKey: Guid(3e3c23bcb6e25496485ec1b981c06954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSAnimatorControl.cs using Guid(3e3c23bcb6e25496485ec1b981c06954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb4f1faa32393536d4fab9dfd930b79') in 0.012216 seconds 
+  Import took 0.019441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013886 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSAnimationEvent.cs
+  artifactKey: Guid(1726d6d18d9e34a6daa1a58818ac8a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSAnimationEvent.cs using Guid(1726d6d18d9e34a6daa1a58818ac8a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a19a80982dd40c8d672232f72d93d4c') in 0.013570 seconds 
+  Import took 0.022060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003485 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/PositionAndHeading.cs
+  artifactKey: Guid(69fea2982887048c795ae11c1dcf4c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/PositionAndHeading.cs using Guid(69fea2982887048c795ae11c1dcf4c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073d6da678df501b7bae4f32f32ca03b') in 0.015691 seconds 
+  Import took 0.023278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013741 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentInputField.cs
+  artifactKey: Guid(235ebb88f43384a7d8e0ef80a75118a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentInputField.cs using Guid(235ebb88f43384a7d8e0ef80a75118a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d13027a58d609d2055f360c651b87f') in 0.014894 seconds 
+  Import took 0.026375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015058 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Deprecated/DSActiveGetBool.cs
+  artifactKey: Guid(3a9d0b70477244ef9a11689744f68805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Deprecated/DSActiveGetBool.cs using Guid(3a9d0b70477244ef9a11689744f68805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83ccde967222bb33187aaa41a06e6c7') in 0.016371 seconds 
+  Import took 0.026962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014985 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/JoinEdgeToSurface/IVertexProvider.cs
+  artifactKey: Guid(5b3c6c8311c25482d8a637c4d42f21f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/JoinEdgeToSurface/IVertexProvider.cs using Guid(5b3c6c8311c25482d8a637c4d42f21f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee4b111bc49b2ab7be84c9881bc14a7') in 0.016959 seconds 
+  Import took 0.025478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014744 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Deprecated/DSImageColorGetFloat.cs
+  artifactKey: Guid(7a1f1794bdb944b8f9ea0544ad627e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Deprecated/DSImageColorGetFloat.cs using Guid(7a1f1794bdb944b8f9ea0544ad627e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4bac50da745b72dce9992a9f0fd3b0') in 0.020490 seconds 
+  Import took 0.026956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012077 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentButton.cs
+  artifactKey: Guid(daab29e10327e495b8067822c5bb8a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentButton.cs using Guid(daab29e10327e495b8067822c5bb8a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e02177b9cb6b5ae81a47e9da7cf3cb') in 0.012268 seconds 
+  Import took 0.018385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014921 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Output/DSTextAbstraction.cs
+  artifactKey: Guid(adf1d129fa1384960827b5a90b625881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Output/DSTextAbstraction.cs using Guid(adf1d129fa1384960827b5a90b625881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3facef375723c07025516d5fb1bb2c08') in 0.011587 seconds 
+  Import took 0.017135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013901 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSColorizeSetAlpha.cs
+  artifactKey: Guid(6d4a2a76e8b8448fa8f0cc8303181e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSColorizeSetAlpha.cs using Guid(6d4a2a76e8b8448fa8f0cc8303181e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0716dd4059247c9504fa24d887f0cde') in 0.013897 seconds 
+  Import took 0.020444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015708 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeroads/MakeRoads.cs
+  artifactKey: Guid(7705f26f39e4b45a6a0ca67e30a641ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeroads/MakeRoads.cs using Guid(7705f26f39e4b45a6a0ca67e30a641ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95dc8d71643b78561304b0b5a9b4d006') in 0.011839 seconds 
+  Import took 0.018698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014389 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSMonoBehaviourControl.cs
+  artifactKey: Guid(bc6237c6ce419476cb4d84da2a6687a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSMonoBehaviourControl.cs using Guid(bc6237c6ce419476cb4d84da2a6687a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5e13902a35a844fd03f72df33a361e') in 0.012400 seconds 
+  Import took 0.018179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013865 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Audio/DSAudioVolume.cs
+  artifactKey: Guid(144dd0d31ef514e84ab04cfab36ed044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Audio/DSAudioVolume.cs using Guid(144dd0d31ef514e84ab04cfab36ed044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1681d7801a2602eda66f638d8fb07b5') in 0.011908 seconds 
+  Import took 0.021208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014803 seconds.
+  path: Assets/MassSpringSystem/Assets/Scripts/UI/CanvasTouchManager.cs
+  artifactKey: Guid(6163fb0d05278d74fb2a57bbd1647d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Scripts/UI/CanvasTouchManager.cs using Guid(6163fb0d05278d74fb2a57bbd1647d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54959391cb9104bcf7294eefd3c487e0') in 0.012254 seconds 
+  Import took 0.018354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012614 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSButtonIncrement.cs
+  artifactKey: Guid(dd61fcdcd3d2b40b8afe78b6e98b2311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSButtonIncrement.cs using Guid(dd61fcdcd3d2b40b8afe78b6e98b2311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eab66bf975a84f55c9e99610c335d00') in 0.012210 seconds 
+  Import took 0.018310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016067 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainRampMaker/TerrainRampMaker.cs
+  artifactKey: Guid(3d400a321efa4437d86fbf571d02cdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainRampMaker/TerrainRampMaker.cs using Guid(3d400a321efa4437d86fbf571d02cdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e68df0451d40b97c8ee6dab5bb3ccbe') in 0.013201 seconds 
+  Import took 0.020654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012413 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackArrays.cs
+  artifactKey: Guid(f74a769159f1d4338acf820b7660f168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackArrays.cs using Guid(f74a769159f1d4338acf820b7660f168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d5c1f0f37646d02572edaa0edb67fb') in 0.011089 seconds 
+  Import took 0.018594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013404 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Audio/DSAudioPitch.cs
+  artifactKey: Guid(9362025398b8b4221969eac9fdab6f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Audio/DSAudioPitch.cs using Guid(9362025398b8b4221969eac9fdab6f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8998fd2b2f44cca13c81e9b0b1474048') in 0.010439 seconds 
+  Import took 0.018110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013126 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/uvmapping/UVRemappers/TestRemappers.cs
+  artifactKey: Guid(fd8372f211f644e5b9b7c17cdf844047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/uvmapping/UVRemappers/TestRemappers.cs using Guid(fd8372f211f644e5b9b7c17cdf844047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3364d8358427e7b99c219238b3d275') in 0.011826 seconds 
+  Import took 0.018756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014220 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Editor/TextureAndSpriteMakerAndSaver.cs
+  artifactKey: Guid(19161b4bca1b64dc4981af5fd07fc546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Editor/TextureAndSpriteMakerAndSaver.cs using Guid(19161b4bca1b64dc4981af5fd07fc546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985f954a3d01b8f1fdc988793a6aaba4') in 0.010288 seconds 
+  Import took 0.017778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013918 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentSlider.cs
+  artifactKey: Guid(1d7dd4a196aec44c1970085d16539915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentSlider.cs using Guid(1d7dd4a196aec44c1970085d16539915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb6548bc7e31d96fe7cbd2383184c5c') in 0.010810 seconds 
+  Import took 0.019026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032198 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/ExpandingBall/ExpandingBall.cs
+  artifactKey: Guid(66001e0f120784473a4229c94b723931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/ExpandingBall/ExpandingBall.cs using Guid(66001e0f120784473a4229c94b723931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de22b681384598439acaf519c5979adf') in 0.011379 seconds 
+  Import took 0.018243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013844 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/JoinEdgeToSurface/testjoinedgetosurface.cs
+  artifactKey: Guid(70781877f078c4aba8bbb08827da5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/JoinEdgeToSurface/testjoinedgetosurface.cs using Guid(70781877f078c4aba8bbb08827da5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d5af7e9897e665f637699f640658d5') in 0.011892 seconds 
+  Import took 0.018256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019227 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DSMHardwired.cs
+  artifactKey: Guid(de6ebc048ceac42fa98cd208a5fe76b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DSMHardwired.cs using Guid(de6ebc048ceac42fa98cd208a5fe76b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c630e5dca01b5a8733c273cf18cbc27') in 0.013234 seconds 
+  Import took 0.584850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036068 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Deprecated/DSSetValueOnStart.cs
+  artifactKey: Guid(06e4ef0636c104e1b829598ff41b573c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Deprecated/DSSetValueOnStart.cs using Guid(06e4ef0636c104e1b829598ff41b573c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c04258aa04e7832411fa4bb7c68be0') in 0.036442 seconds 
+  Import took 0.063895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033788 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainRampMaker/TerrainRampNode.cs
+  artifactKey: Guid(2a8c3299aca664a5ab7af4bfbfedf0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainRampMaker/TerrainRampNode.cs using Guid(2a8c3299aca664a5ab7af4bfbfedf0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf779f0b5f9591eac2534b64d877faf2') in 0.023094 seconds 
+  Import took 0.042836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/ProcGenStuff/SpawningInAGrid/MyPrefabToSpawn.prefab
+  artifactKey: Guid(cf539560e3c04442da7763cdb6f6e0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/ProcGenStuff/SpawningInAGrid/MyPrefabToSpawn.prefab using Guid(cf539560e3c04442da7763cdb6f6e0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4b591909a2ebb833d6a0ee82da7ed7') in 0.384708 seconds 
+  Import took 0.392518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016675 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Output/DSTextDisplayString.cs
+  artifactKey: Guid(84f85cb9c2f9c4160a85dccba59da16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Output/DSTextDisplayString.cs using Guid(84f85cb9c2f9c4160a85dccba59da16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911d0ff50897ced9f39fda39f25ae86e') in 0.010686 seconds 
+  Import took 0.026078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237806 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Miscellaneous/DSAnimatorPropertyType.cs
+  artifactKey: Guid(e0a14faafdd064eee8ffe7a1ea17feb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Miscellaneous/DSAnimatorPropertyType.cs using Guid(e0a14faafdd064eee8ffe7a1ea17feb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b75a6c150b0c3b9b1368fff4c95dc3f') in 0.107018 seconds 
+  Import took 0.128021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031799 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainRampMaker/TerrainCutter.cs
+  artifactKey: Guid(8311bb2de73ad47e2b560352c9c1bad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainRampMaker/TerrainCutter.cs using Guid(8311bb2de73ad47e2b560352c9c1bad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5e8e7d0d9a4b2224996334754076cd') in 0.031824 seconds 
+  Import took 0.043727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011174 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Output/DSTextDisplayStringArray.cs
+  artifactKey: Guid(5d87096a955c44ebdbdaa82f565b21aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Output/DSTextDisplayStringArray.cs using Guid(5d87096a955c44ebdbdaa82f565b21aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde4d0184c73b5105227e16b81ee11da') in 0.016213 seconds 
+  Import took 0.026510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012214 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/DiggingTerrainAntColony/DiggingPlayerBallRoller.cs
+  artifactKey: Guid(43400ef78a9c148a4b596f9ff6c57220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/DiggingTerrainAntColony/DiggingPlayerBallRoller.cs using Guid(43400ef78a9c148a4b596f9ff6c57220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30eaa988ff74c27e991fffe344732b14') in 0.033396 seconds 
+  Import took 0.043712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016039 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/JoinEdgeToSurface/ProvidePlaneVerts.cs
+  artifactKey: Guid(9f70ae8bce96344429eb9630a9330452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/JoinEdgeToSurface/ProvidePlaneVerts.cs using Guid(9f70ae8bce96344429eb9630a9330452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a486e2af01686880fd3fa2880d4ee7') in 0.016321 seconds 
+  Import took 0.024331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024030 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Audio/DSAudioVolumeOverTime.cs
+  artifactKey: Guid(098f1ce2225e84ded8179476c16e318f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Audio/DSAudioVolumeOverTime.cs using Guid(098f1ce2225e84ded8179476c16e318f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4766435f09e557f3dfbd4ecccde9e80c') in 0.018780 seconds 
+  Import took 0.031267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017444 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeuvcircle/MakeUVCircle.cs
+  artifactKey: Guid(1be44c025e9864711bdfd0089325c920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeuvcircle/MakeUVCircle.cs using Guid(1be44c025e9864711bdfd0089325c920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6aef79c245f82d9d7faff64520d3c3') in 0.019701 seconds 
+  Import took 0.028185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013041 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/CombineMeshes/junk/MC2.cs
+  artifactKey: Guid(c8c286999721e47728d28566f77dcbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/CombineMeshes/junk/MC2.cs using Guid(c8c286999721e47728d28566f77dcbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2d9dc19eada7cb9e04499b09272011') in 0.015728 seconds 
+  Import took 0.029705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016772 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makegridfrombitmap/Bitmap2Grid/Bitmap2Grid.cs
+  artifactKey: Guid(d94a5896051fb4c01a5b0faa7f7bb318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makegridfrombitmap/Bitmap2Grid/Bitmap2Grid.cs using Guid(d94a5896051fb4c01a5b0faa7f7bb318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc512a6eb8df5caccfe6b7509185eb1') in 0.012067 seconds 
+  Import took 0.017969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012639 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeroads/RoadConfiguration.cs
+  artifactKey: Guid(66ad6206dd78d4702a843378518f163c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeroads/RoadConfiguration.cs using Guid(66ad6206dd78d4702a843378518f163c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fefc823c69fb0bbe65884b6fda9703c') in 0.011461 seconds 
+  Import took 0.017172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012003 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/JoinEdgeToSurface/MakeBridgeGeometry.cs
+  artifactKey: Guid(950cfcff6e8854685b9c67ebf0efda05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/JoinEdgeToSurface/MakeBridgeGeometry.cs using Guid(950cfcff6e8854685b9c67ebf0efda05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87427f5d298ed3470e1e923704f19b31') in 0.011998 seconds 
+  Import took 0.018372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011230 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/SharedvsNonSharedVertices/SharedvsNonSharedVertices.cs
+  artifactKey: Guid(2e64fdabbdf6148318d7aa4babbb2a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/SharedvsNonSharedVertices/SharedvsNonSharedVertices.cs using Guid(2e64fdabbdf6148318d7aa4babbb2a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328288e064733b5484becbd3e245f322') in 0.011704 seconds 
+  Import took 0.021415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011045 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/Vector2Int.cs
+  artifactKey: Guid(1d9a7622503b04855964539b5351c124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/Vector2Int.cs using Guid(1d9a7622503b04855964539b5351c124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a4ab5b793d02eca0cf36d77088d845') in 0.034236 seconds 
+  Import took 0.044549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013797 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Editor/MeshMakerAndSaver.cs
+  artifactKey: Guid(a4b6bdde6280743a1a1a35202459ed32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Editor/MeshMakerAndSaver.cs using Guid(a4b6bdde6280743a1a1a35202459ed32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e45741d5e1a4595d96a3fefa98f82a2') in 0.010301 seconds 
+  Import took 0.020634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018385 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackFormatting.cs
+  artifactKey: Guid(e918e61957de74ea78511eb9fd604ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackFormatting.cs using Guid(e918e61957de74ea78511eb9fd604ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c67318a9a391946c3e2af61951b925') in 0.011910 seconds 
+  Import took 0.019453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010552 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/WeaponGrenadeTosser.cs
+  artifactKey: Guid(00113cd1f8407407db086ec2871c36b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/WeaponGrenadeTosser.cs using Guid(00113cd1f8407407db086ec2871c36b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c412571dda73510f67546e8f598503') in 0.011784 seconds 
+  Import took 0.018511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003569 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makegridfrombitmap/Bitmap2Grid/B2GConfig.cs
+  artifactKey: Guid(7807e1291a2f74f559f4bbbaf0f6228d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makegridfrombitmap/Bitmap2Grid/B2GConfig.cs using Guid(7807e1291a2f74f559f4bbbaf0f6228d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66331adb8ebcf099db136aa9c97b4a8') in 0.011010 seconds 
+  Import took 0.019125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014629 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/2d/makepolygoncollider2d/testmakepolygoncollider2d.cs
+  artifactKey: Guid(7a891273de48a4b18965eba34fede36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/2d/makepolygoncollider2d/testmakepolygoncollider2d.cs using Guid(7a891273de48a4b18965eba34fede36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ce79114bc4338e4b584c4fe87b463a') in 0.031564 seconds 
+  Import took 0.037456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011814 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/MR.cs
+  artifactKey: Guid(55fce2b7e7de94fc0961b4b372cce937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/MR.cs using Guid(55fce2b7e7de94fc0961b4b372cce937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5442b1d2ff9856e6d9aa49fb195dac25') in 0.012388 seconds 
+  Import took 0.021773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012606 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSRotationSetAxis.cs
+  artifactKey: Guid(a864a1892823a46eb9e51a9953c07e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSRotationSetAxis.cs using Guid(a864a1892823a46eb9e51a9953c07e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e7f93590bebffdca3c3126f946b297') in 0.010378 seconds 
+  Import took 0.018013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006810 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSImageSelectInt.cs
+  artifactKey: Guid(0efa848e638b64b9ebe088d4751c60a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSImageSelectInt.cs using Guid(0efa848e638b64b9ebe088d4751c60a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be3f1758b1a5000abd466afa9a645ca') in 0.011899 seconds 
+  Import took 0.017844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012987 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSColorizeLookupTable.cs
+  artifactKey: Guid(8106e5d66c0a349259446634a5a0e5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSColorizeLookupTable.cs using Guid(8106e5d66c0a349259446634a5a0e5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e727940f58959334f7cff4939bf1fc') in 0.010656 seconds 
+  Import took 0.018849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011251 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentToggleSet.cs
+  artifactKey: Guid(32ca23ea66ad44570b02c5162d516107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentToggleSet.cs using Guid(32ca23ea66ad44570b02c5162d516107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8c13c10ec06515a6ecefd732e8e8a7') in 0.019874 seconds 
+  Import took 0.031364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029354 seconds.
+  path: Assets/MassSpringSystem/Assets/Scripts/SpringSystem/MassSpringSystem.cs
+  artifactKey: Guid(d64b3cbf2564ec247816f784730a4c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Scripts/SpringSystem/MassSpringSystem.cs using Guid(d64b3cbf2564ec247816f784730a4c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975f03a2f3d2741ffb2690d112d43ec2') in 0.011792 seconds 
+  Import took 0.027449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012874 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSDestroyOnTrue.cs
+  artifactKey: Guid(c9ac2bf16a5294d1f8b4841540ca7f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSDestroyOnTrue.cs using Guid(c9ac2bf16a5294d1f8b4841540ca7f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea217dad0346d9ff186469ca7a5b62eb') in 0.016243 seconds 
+  Import took 0.022254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011904 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSColorableAbstraction.cs
+  artifactKey: Guid(c12640a8bbf5346668ad9310d15f0d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSColorableAbstraction.cs using Guid(c12640a8bbf5346668ad9310d15f0d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332ba6f3fc14690daa4e696aae8cad98') in 0.016344 seconds 
+  Import took 0.023427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014112 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Output/DSTextDisplayStringFormatted.cs
+  artifactKey: Guid(90953b0a50a9d441fa2a6988daad0df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Output/DSTextDisplayStringFormatted.cs using Guid(90953b0a50a9d441fa2a6988daad0df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9beb8ed66040ea8f43dded381d6521a2') in 0.013030 seconds 
+  Import took 0.020308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011937 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeuvcapsule/MakeUVCapsule.cs
+  artifactKey: Guid(9fc902117a1a94d17b0aa304e99a7975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeuvcapsule/MakeUVCapsule.cs using Guid(9fc902117a1a94d17b0aa304e99a7975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b9a46cd668d1ac29bfcf2fdefcc4aa') in 0.011601 seconds 
+  Import took 0.019104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014398 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/ProcGenStuff/MakeWithTexture2D/Texure2Level/Texture2BoxCollider2D.cs
+  artifactKey: Guid(0ac939006df9a48d1bad923b7bd05c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/ProcGenStuff/MakeWithTexture2D/Texure2Level/Texture2BoxCollider2D.cs using Guid(0ac939006df9a48d1bad923b7bd05c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4050484dff84c27a732343a40fee2ab') in 0.011986 seconds 
+  Import took 0.018382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014062 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSRotationSetQuaternion.cs
+  artifactKey: Guid(0ddc7bbf63dcd49a69eae71d7e50ad90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSRotationSetQuaternion.cs using Guid(0ddc7bbf63dcd49a69eae71d7e50ad90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6837ebcac40e2f5eadba2cf18d5f7db9') in 0.015280 seconds 
+  Import took 0.021931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011882 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeuvcylinder/MakeUVCylinder.cs
+  artifactKey: Guid(4c73a9d48f455435ea53969aec9c6c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeuvcylinder/MakeUVCylinder.cs using Guid(4c73a9d48f455435ea53969aec9c6c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59f6f898c6307bb5e52ef19a636696a') in 0.011544 seconds 
+  Import took 0.017113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011209 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/Datasack3DSensor.cs
+  artifactKey: Guid(45fc460e5ced0490fb1b51eb20746f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/Datasack3DSensor.cs using Guid(45fc460e5ced0490fb1b51eb20746f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64224b641173062a5cb5fda1a3f0acc') in 0.009855 seconds 
+  Import took 0.017803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019036 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/TrackRenderersAndMaterials/TrackRenderersAndMaterials.cs
+  artifactKey: Guid(ffb2483b5c6fb464888293e17a3df19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/TrackRenderersAndMaterials/TrackRenderersAndMaterials.cs using Guid(ffb2483b5c6fb464888293e17a3df19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96714308b7e006d5796f011898dddd67') in 0.013384 seconds 
+  Import took 0.020648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011594 seconds.
+  path: Assets/MassSpringSystem/Assets/Scripts/SpringSystem/MassSpawner.cs
+  artifactKey: Guid(38909dde586356640af8fc2a1d4ae8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Scripts/SpringSystem/MassSpawner.cs using Guid(38909dde586356640af8fc2a1d4ae8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055d69531486982e2328bfe7fa9afae4') in 0.011415 seconds 
+  Import took 0.018259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013472 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/ProcGenStuff/SpawningOverAnArea/MyPrefabToSpawn.prefab
+  artifactKey: Guid(b697975e562a94099967beb051cc2f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/ProcGenStuff/SpawningOverAnArea/MyPrefabToSpawn.prefab using Guid(b697975e562a94099967beb051cc2f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9643c3a048c229cfce38a3395a869921') in 0.018452 seconds 
+  Import took 0.024582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014119 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/uvmapping/UVTranslator/TestUVTranslators.cs
+  artifactKey: Guid(2e0e22685520241e1b70f6a085c39d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/uvmapping/UVTranslator/TestUVTranslators.cs using Guid(2e0e22685520241e1b70f6a085c39d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e27706da923b357d270f5f8569362d') in 0.011431 seconds 
+  Import took 0.017761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014142 seconds.
+  path: Assets/MassSpringSystem/Assets/Shaders/MassSpringSystem/MassSpringSystem.compute
+  artifactKey: Guid(fd799b4f8449b104c9bc7957ba3c4525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Shaders/MassSpringSystem/MassSpringSystem.compute using Guid(fd799b4f8449b104c9bc7957ba3c4525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bb959b360897c3f8bb9e01a2e87dd1') in 0.014268 seconds 
+  Import took 0.023032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012412 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/Datasack3DManager.cs
+  artifactKey: Guid(df747cf4ada874dc6958b6447353bfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/Datasack3DManager.cs using Guid(df747cf4ada874dc6958b6447353bfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89f984b433f41973d190cfb329b4ab8') in 0.010062 seconds 
+  Import took 0.016495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016177 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makequadplane/MakeQuadPlane.cs
+  artifactKey: Guid(246e6572b0a7d495f82408f47107636d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makequadplane/MakeQuadPlane.cs using Guid(246e6572b0a7d495f82408f47107636d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c1b46bedc61495cf9fa9ec8bf05807') in 0.011163 seconds 
+  Import took 0.018909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012701 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/BuildingBlocks/OriginalPositionAndRotation.cs
+  artifactKey: Guid(3e2e6b07fa6ce449fadbad78b8e8a1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/BuildingBlocks/OriginalPositionAndRotation.cs using Guid(3e2e6b07fa6ce449fadbad78b8e8a1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0974d248d474341bc1d5d1f9b501d2') in 0.011879 seconds 
+  Import took 0.018321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012589 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makesimpletriangle/makesimpletriangle.cs
+  artifactKey: Guid(225ab9da7afb34ae6b42f77cef00247a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makesimpletriangle/makesimpletriangle.cs using Guid(225ab9da7afb34ae6b42f77cef00247a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c2185309328702ae16ee9c9a9e9d3a') in 0.011280 seconds 
+  Import took 0.017628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013728 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainByPerlinNoise/TerrainByPerlinNoise.cs
+  artifactKey: Guid(aa7c59fa4bb49407b9c892e96b6b8501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainByPerlinNoise/TerrainByPerlinNoise.cs using Guid(aa7c59fa4bb49407b9c892e96b6b8501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fb440d2dae6f092990ff86e729dfc7') in 0.011455 seconds 
+  Import took 0.018119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013978 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentToggle.cs
+  artifactKey: Guid(8a5e0e9f8e2a841b49f41640c30e2979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentToggle.cs using Guid(8a5e0e9f8e2a841b49f41640c30e2979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a873162ec2bf5cd6df5d6089ce449dc5') in 0.012938 seconds 
+  Import took 0.019128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013469 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/OurStyles.cs
+  artifactKey: Guid(85ecb27de1cc64d97b01cdeb456f9e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/OurStyles.cs using Guid(85ecb27de1cc64d97b01cdeb456f9e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9761b906525db6ef7a3a879e8eb061') in 0.009859 seconds 
+  Import took 0.017132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011243 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSImageSetFilled.cs
+  artifactKey: Guid(1398a29b6accb48818ee683718ff0577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSImageSetFilled.cs using Guid(1398a29b6accb48818ee683718ff0577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d7660716a0d74cf9d793f9e0c6c737') in 0.010885 seconds 
+  Import took 0.020117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012181 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Deprecated/DSImageColorGetInt.cs
+  artifactKey: Guid(b8c9bc25693fd4042ac0800420729088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Deprecated/DSImageColorGetInt.cs using Guid(b8c9bc25693fd4042ac0800420729088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e0dd6df4ce59eaa79c88bc2c464451') in 0.009969 seconds 
+  Import took 0.017859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012480 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackCollection.cs
+  artifactKey: Guid(a63d0f31a1d934970a58e502521e415e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackCollection.cs using Guid(a63d0f31a1d934970a58e502521e415e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f38e282da20c27cd0561531ef69243f') in 0.012344 seconds 
+  Import took 0.018565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012139 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makequadplane/QuadPlaneDef.cs
+  artifactKey: Guid(bc79b6ec209a0477b94412f0afd95fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makequadplane/QuadPlaneDef.cs using Guid(bc79b6ec209a0477b94412f0afd95fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5998ab0d8de9730edac0227c228d32b') in 0.010653 seconds 
+  Import took 0.016700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012405 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeroads/MakeRoadsFromChildTransforms.cs
+  artifactKey: Guid(92b4746c0ac7846a6bafda578d83089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeroads/MakeRoadsFromChildTransforms.cs using Guid(92b4746c0ac7846a6bafda578d83089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190b20ede6c4578e14d3cbf228ac332a') in 0.011631 seconds 
+  Import took 0.017984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014117 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainDamager/TestTerrainDamager.cs
+  artifactKey: Guid(e5085fe72fca44a60aba5429cd559d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainDamager/TestTerrainDamager.cs using Guid(e5085fe72fca44a60aba5429cd559d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb591876fe2a651a6a610aa8f3365f4') in 0.011385 seconds 
+  Import took 0.017462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012972 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Audio/DSAudioPlay.cs
+  artifactKey: Guid(11a6a297dfe9346508bb2f6e9cc52916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Audio/DSAudioPlay.cs using Guid(11a6a297dfe9346508bb2f6e9cc52916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ed938cebea7867f98441fe9a1c91d9') in 0.010185 seconds 
+  Import took 0.018385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011827 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Particles/DSPSEmitOverTime.cs
+  artifactKey: Guid(a397622fb3e4b425695e0036c9695f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Particles/DSPSEmitOverTime.cs using Guid(a397622fb3e4b425695e0036c9695f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f176d7978edcd9a914b60850d29dde15') in 0.012143 seconds 
+  Import took 0.023702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019079 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makethicksprites/makethicksprites.cs
+  artifactKey: Guid(a530b29415cb1437ab11fc6873aefd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makethicksprites/makethicksprites.cs using Guid(a530b29415cb1437ab11fc6873aefd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99995fe6f4919647fc04bb55162514a8') in 0.014391 seconds 
+  Import took 0.020855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013758 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackScalarIfDifferent.cs
+  artifactKey: Guid(ba4a5476ff74b4b96ae3afbf3e27d637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackScalarIfDifferent.cs using Guid(ba4a5476ff74b4b96ae3afbf3e27d637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27569a321ce8c1ebad65b4e24141846') in 0.013346 seconds 
+  Import took 0.019902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013715 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/ListExtensions.cs
+  artifactKey: Guid(12d77cec702b54e049344ad1c79d737c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/ListExtensions.cs using Guid(12d77cec702b54e049344ad1c79d737c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0200b7f375b252d95eb7d8da7d6476') in 0.040024 seconds 
+  Import took 0.046946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016861 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Editor/TextureMakerAndSaver.cs
+  artifactKey: Guid(50be3030f1f8642eabaca15b76127a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Editor/TextureMakerAndSaver.cs using Guid(50be3030f1f8642eabaca15b76127a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c550f17b5c4338169714d269d3163f56') in 0.014095 seconds 
+  Import took 0.022275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002374 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/CombineMeshes/ExampleFromUnityImproved/ExampleCombinerImproved.cs
+  artifactKey: Guid(9cd67c18f703d4bc1aa0207fad6ab2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/CombineMeshes/ExampleFromUnityImproved/ExampleCombinerImproved.cs using Guid(9cd67c18f703d4bc1aa0207fad6ab2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b410141feeb55988c11a8c5a95894f26') in 0.017211 seconds 
+  Import took 0.030797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007168 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DSM.cs
+  artifactKey: Guid(9a89d2381a82d440ab36ae68ea13fc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DSM.cs using Guid(9a89d2381a82d440ab36ae68ea13fc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f985b403d7c316356f110f30c801af') in 0.012776 seconds 
+  Import took 0.019397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029244 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/uvmapping/UVRemappers/UVRemappers.cs
+  artifactKey: Guid(b5e0bd944f6b34015a27369b0783467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/uvmapping/UVRemappers/UVRemappers.cs using Guid(b5e0bd944f6b34015a27369b0783467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2378c8f0a1d2d57704aa5001b22ca5f4') in 0.012324 seconds 
+  Import took 0.022297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014647 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Output/DSTextDisplayInt.cs
+  artifactKey: Guid(60f15bdd4129a44de9b315219572d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Output/DSTextDisplayInt.cs using Guid(60f15bdd4129a44de9b315219572d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98873b4f85da4f53e29206d42ef13cb1') in 0.012937 seconds 
+  Import took 0.019569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013393 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Miscellaneous/DSStateMachineBehaviour.cs
+  artifactKey: Guid(4aadb90bbaeae40098ffba5682174e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Miscellaneous/DSStateMachineBehaviour.cs using Guid(4aadb90bbaeae40098ffba5682174e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3b7f0205f2f6ebb4021f954348dba5') in 0.013728 seconds 
+  Import took 0.020811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012453 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/setuvtoworld/SetUVToWorld.cs
+  artifactKey: Guid(5a894e05984a84e0ebf6e058774d7aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/setuvtoworld/SetUVToWorld.cs using Guid(5a894e05984a84e0ebf6e058774d7aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1777bdaa972dee5d8d2e4e34f87f2880') in 0.011012 seconds 
+  Import took 0.017865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013640 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeheightmap/testmakeheightmap1.cs
+  artifactKey: Guid(ed554d68c1a6e415aaf4c68d74d77240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeheightmap/testmakeheightmap1.cs using Guid(ed554d68c1a6e415aaf4c68d74d77240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73469a090b86bc21c2f864d2cb9c6bf8') in 0.015478 seconds 
+  Import took 0.024362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011605 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/ProcGenStuff/SpawningOverAnArea/SpawningOverAnArea.cs
+  artifactKey: Guid(c2db490614ea04f789152e7e9a19bd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/ProcGenStuff/SpawningOverAnArea/SpawningOverAnArea.cs using Guid(c2db490614ea04f789152e7e9a19bd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a58570c134b8d235fd7d8d613b1e2b') in 0.013331 seconds 
+  Import took 0.019196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017524 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/ElectricFences/ElectricFence1.cs
+  artifactKey: Guid(5b5b1668b13214d4d8ca5e9210379814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/ElectricFences/ElectricFence1.cs using Guid(5b5b1668b13214d4d8ca5e9210379814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13faa0786704652ddc197f71ddc840d8') in 0.014852 seconds 
+  Import took 0.030745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012235 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackFunctions.cs
+  artifactKey: Guid(969fa79cd49b24ba689545d67378e8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackFunctions.cs using Guid(969fa79cd49b24ba689545d67378e8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95fb8dde30105229c392a4eeab8d96b') in 0.012402 seconds 
+  Import took 0.020931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014305 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeuvsphere/MakeUVSphere.cs
+  artifactKey: Guid(21ab75bc075f14df993658216b262b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeuvsphere/MakeUVSphere.cs using Guid(21ab75bc075f14df993658216b262b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91ffa19349d1662a926093e0df4c75f') in 0.012039 seconds 
+  Import took 0.018114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.557137 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSSkinnableAbstraction.cs
+  artifactKey: Guid(62bc6c87fdfdd4d31a37e6e20b7d512f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSSkinnableAbstraction.cs using Guid(62bc6c87fdfdd4d31a37e6e20b7d512f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e414fa08cba99280b841bb2cdcb4a8a') in 0.029920 seconds 
+  Import took 0.088138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011420 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackInspector.cs
+  artifactKey: Guid(2b7bbe096f12b4a29866f7f0927233bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackInspector.cs using Guid(2b7bbe096f12b4a29866f7f0927233bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160fa710a338bd32098d96398d1d5cda') in 0.015589 seconds 
+  Import took 0.048346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016739 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSGameObjectControl.cs
+  artifactKey: Guid(84a957359b5004d239cf1d087ee64288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSGameObjectControl.cs using Guid(84a957359b5004d239cf1d087ee64288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459a307bc0627ece923ee3034f747752') in 0.019213 seconds 
+  Import took 0.036161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014318 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/ProcGenStuff/SpawningInAGrid/SpawningInAGrid.cs
+  artifactKey: Guid(93b476a1408a94567a4ef56934ab72f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/ProcGenStuff/SpawningInAGrid/SpawningInAGrid.cs using Guid(93b476a1408a94567a4ef56934ab72f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fbe94024aabeff8081792f69c1c893') in 0.018195 seconds 
+  Import took 0.032668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015939 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentKeyboard.cs
+  artifactKey: Guid(ad4c5f4f3f0a14c7d981486cb559339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSUserIntentKeyboard.cs using Guid(ad4c5f4f3f0a14c7d981486cb559339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36c59bb5bfb89267faf7ddb2d0f666f') in 0.019021 seconds 
+  Import took 0.025985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010232 seconds.
+  path: Assets/MassSpringSystem/Assets/Materials/Cloth 1.mat
+  artifactKey: Guid(ed3c864a930ef144e95233b0af00935a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Materials/Cloth 1.mat using Guid(ed3c864a930ef144e95233b0af00935a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53edded70014521640b8dc7f7dd7171d') in 0.087762 seconds 
+  Import took 0.096036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015643 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackStack.cs
+  artifactKey: Guid(60508b15d91314f04b56a2b987a66aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackStack.cs using Guid(60508b15d91314f04b56a2b987a66aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515b8f9dbf3dd3dc42700f2fcf00a437') in 0.013386 seconds 
+  Import took 0.019374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013648 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSColorizeLookupGradient.cs
+  artifactKey: Guid(771c655b1c0ae436ebef5032180982c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSColorizeLookupGradient.cs using Guid(771c655b1c0ae436ebef5032180982c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadd97f1b04a1941771bf7553f129c49') in 0.011178 seconds 
+  Import took 0.017798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015517 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSRendererTextureControl.cs
+  artifactKey: Guid(194189064fac746b6b6f95793b2a8ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSRendererTextureControl.cs using Guid(194189064fac746b6b6f95793b2a8ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876ab48aeff9ca4f0694502582843664') in 0.011280 seconds 
+  Import took 0.017716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009926 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/ZNotMyCode/TerrainDataCloner.cs
+  artifactKey: Guid(5ff20aa8756584d1e8afa3bcc56b43bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/ZNotMyCode/TerrainDataCloner.cs using Guid(5ff20aa8756584d1e8afa3bcc56b43bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ec9d283ffdc30262183e4baf28892f') in 0.012112 seconds 
+  Import took 0.018700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014693 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackEditorUtils.cs
+  artifactKey: Guid(2d963a1bd16c34044b8e80ac46b55197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackEditorUtils.cs using Guid(2d963a1bd16c34044b8e80ac46b55197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2d563b62f9dad0b346907e84e253d5') in 0.013383 seconds 
+  Import took 0.020488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012710 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/2d/makepolygoncollider2d/testfingerpolygons.cs
+  artifactKey: Guid(ab3448c4942bf42f6ac9bce65cf97175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/2d/makepolygoncollider2d/testfingerpolygons.cs using Guid(ab3448c4942bf42f6ac9bce65cf97175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be25e9810cfed9d40568cff7e454d871') in 0.011992 seconds 
+  Import took 0.019036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011648 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makequadplane/testmakequadplane.cs
+  artifactKey: Guid(4609ac7d5ce0048bdb714e15cb3a2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makequadplane/testmakequadplane.cs using Guid(4609ac7d5ce0048bdb714e15cb3a2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0ffdc3fe65a37d331d4337f095578a') in 0.013109 seconds 
+  Import took 0.020061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011725 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeextrusion/Extrude2DShape.cs
+  artifactKey: Guid(ca9c9e4d0b2bb4ad2b422803da171893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeextrusion/Extrude2DShape.cs using Guid(ca9c9e4d0b2bb4ad2b422803da171893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bec9073365b9d5ea5f2e6994e66b5ca') in 0.012010 seconds 
+  Import took 0.019861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.257206 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackVectors.cs
+  artifactKey: Guid(6938900db6dc647c4a1c9f677774ceb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackVectors.cs using Guid(6938900db6dc647c4a1c9f677774ceb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d1867129db492fba54dc80f32c3992') in 0.074906 seconds 
+  Import took 0.117946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013056 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeuvsphere/testmakeuvsphere.cs
+  artifactKey: Guid(6c1b19daabdaa44d2a58676807387ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeuvsphere/testmakeuvsphere.cs using Guid(6c1b19daabdaa44d2a58676807387ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf267070fea1a352802276ca886d3c7') in 0.019133 seconds 
+  Import took 0.027699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015358 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainDamager/TerrainDamager.cs
+  artifactKey: Guid(6a46795cb09bc422ca60383c222a421b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/TerrainStuff/TerrainDamager/TerrainDamager.cs using Guid(6a46795cb09bc422ca60383c222a421b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e73a467e06671878209a9dfe96dd48') in 0.024424 seconds 
+  Import took 0.042570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004146 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasacks/DSMCodegen.cs
+  artifactKey: Guid(6e7f7890f8b344f308862748a5503a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasacks/DSMCodegen.cs using Guid(6e7f7890f8b344f308862748a5503a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80846ba729596df7c86310d3f0c554d8') in 0.023201 seconds 
+  Import took 0.032506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011573 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSMaterialLookupTable.cs
+  artifactKey: Guid(6de2b521675bc45ed8ab9f46798250da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSMaterialLookupTable.cs using Guid(6de2b521675bc45ed8ab9f46798250da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e3ed319ffd81661dcb2d4304ecf30d') in 0.034083 seconds 
+  Import took 0.046564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015717 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Deprecated/DSSelectivelyStayActive.cs
+  artifactKey: Guid(215122f54b41b45538af347e39adcaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Deprecated/DSSelectivelyStayActive.cs using Guid(215122f54b41b45538af347e39adcaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9427a47394a3cfe50da67900a27beebd') in 0.016887 seconds 
+  Import took 0.028650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013967 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackComments.cs
+  artifactKey: Guid(de12f55c2ebd74e1e9c03c1c10024ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/DatasackComments.cs using Guid(de12f55c2ebd74e1e9c03c1c10024ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b0d700fdd495dd7b4958c194aa03f3') in 0.009404 seconds 
+  Import took 0.017464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011168 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makecubes/MakeCube.cs
+  artifactKey: Guid(353564aeb357f4ee99417afa4f55ae5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makecubes/MakeCube.cs using Guid(353564aeb357f4ee99417afa4f55ae5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056a54f3620cb0ba9057f9198f90e456') in 0.009184 seconds 
+  Import took 0.020347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010718 seconds.
+  path: Assets/MassSpringSystem/Assets/Prefabs/MassCube.prefab
+  artifactKey: Guid(ac694ca71d2e70949b2877f3800e89dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Prefabs/MassCube.prefab using Guid(ac694ca71d2e70949b2877f3800e89dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7334d6cee2883e2bcfbf6ce5ef042c') in 0.029211 seconds 
+  Import took 0.039247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014530 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Miscellaneous/DSRandomIntervalPoker.cs
+  artifactKey: Guid(139871ccae34945438c6de52066f3e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Miscellaneous/DSRandomIntervalPoker.cs using Guid(139871ccae34945438c6de52066f3e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55114fb651654608a41a2da259a6d62') in 0.014542 seconds 
+  Import took 0.024400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013272 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/uvmapping/UVTranslator/UVTranslators.cs
+  artifactKey: Guid(f01c7132b0814499a93acbcfcdfe2ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/uvmapping/UVTranslator/UVTranslators.cs using Guid(f01c7132b0814499a93acbcfcdfe2ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dc93dfa0dc9a6a218a4497c47eb70d') in 0.012175 seconds 
+  Import took 0.019064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012992 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/ProcGenStuff/SpawningEvenlyAcross/SpacingStrategies.cs
+  artifactKey: Guid(6df75c99d479741aeaa5a9296ea5e483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/ProcGenStuff/SpawningEvenlyAcross/SpacingStrategies.cs using Guid(6df75c99d479741aeaa5a9296ea5e483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81055a1911f3efa541f03ce481fc31ff') in 0.009155 seconds 
+  Import took 0.017661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011039 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeuvcapsule/testmakeuvcapsule.cs
+  artifactKey: Guid(8041d50e494c649eab1465a04ac4d87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeuvcapsule/testmakeuvcapsule.cs using Guid(8041d50e494c649eab1465a04ac4d87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfa1cce08cf6acdbcfad459bac321f9') in 0.013878 seconds 
+  Import took 0.027326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015013 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeuvcircle/testmakeuvcircle.cs
+  artifactKey: Guid(9421acbc0ee2344f9b1c3d834a52852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeuvcircle/testmakeuvcircle.cs using Guid(9421acbc0ee2344f9b1c3d834a52852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bede81cff75e5d3098e2b3e58d1b74') in 0.010976 seconds 
+  Import took 0.017231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013116 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSButtonSetInteractable.cs
+  artifactKey: Guid(ce342127d203940a6a441ac488a39749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Input/DSButtonSetInteractable.cs using Guid(ce342127d203940a6a441ac488a39749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1074f002cab474be4fad9d0b1e825c4c') in 0.015740 seconds 
+  Import took 0.022932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042551 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/SpinMeZ.cs
+  artifactKey: Guid(591cc0febe44a4021bf36744125db751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/SpinMeZ.cs using Guid(591cc0febe44a4021bf36744125db751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5f2f15c5b0cddf6ac0f75d5136e61f') in 0.013673 seconds 
+  Import took 0.019733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012426 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/ProcGenStuff/MakeCreepingBlocksField/MakeCreepingBlocksField.cs
+  artifactKey: Guid(c293451825347422c89178e25f908c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/ProcGenStuff/MakeCreepingBlocksField/MakeCreepingBlocksField.cs using Guid(c293451825347422c89178e25f908c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0789e69b7912d869d89fe8067f1cef6') in 0.010031 seconds 
+  Import took 0.017916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011599 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makecubes/testmakecubes.cs
+  artifactKey: Guid(bcc62121dcfa84b97bcec91d29ad2284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makecubes/testmakecubes.cs using Guid(bcc62121dcfa84b97bcec91d29ad2284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff6e8985d059fa8bb5362abf60c5f9a') in 0.016770 seconds 
+  Import took 0.026335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013794 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/AxisDirection.cs
+  artifactKey: Guid(a4fbc4fc00f79400b8a019c86094d69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/AxisDirection.cs using Guid(a4fbc4fc00f79400b8a019c86094d69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573bb2e6a1a74fb8ea323905b0c99d63') in 0.028132 seconds 
+  Import took 0.036769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017112 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Core/Datasack.cs
+  artifactKey: Guid(541a8be390a8a4758b654d7d6604eb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Core/Datasack.cs using Guid(541a8be390a8a4758b654d7d6604eb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8282739eb6bbb08e79edf081cc67572d') in 0.017164 seconds 
+  Import took 0.029940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029850 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSUIElementEnabled.cs
+  artifactKey: Guid(512db48126cee4f278dc562c7759438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSUIElementEnabled.cs using Guid(512db48126cee4f278dc562c7759438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad511096146e37541b0f2d853a5399cc') in 0.014612 seconds 
+  Import took 0.021255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017132 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeheightmap/MakeHeightmap1.cs
+  artifactKey: Guid(1c4d572d3b2a6451d93b8e783685dff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeheightmap/MakeHeightmap1.cs using Guid(1c4d572d3b2a6451d93b8e783685dff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a846996c6d11cf16cd0fd1b62f3dc529') in 0.022866 seconds 
+  Import took 0.038858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012089 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/makeuvcone/MakeUVCone.cs
+  artifactKey: Guid(3fc47a023eeea48a998828556f2df95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/makeuvcone/MakeUVCone.cs using Guid(3fc47a023eeea48a998828556f2df95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78b574439248a8ef928ccdb4cd58120') in 0.015499 seconds 
+  Import took 0.026075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011874 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Editor/SpriteMakerAndSaver.cs
+  artifactKey: Guid(c7c268888fe804ae4974059c06768b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Editor/SpriteMakerAndSaver.cs using Guid(c7c268888fe804ae4974059c06768b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8eb099dc05f715c8a26bb46a2b7f13') in 0.012598 seconds 
+  Import took 0.021996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017773 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/setuvtoworld/testsetuvtoworld.cs
+  artifactKey: Guid(64fde91a00159412092e39a591d3c7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/setuvtoworld/testsetuvtoworld.cs using Guid(64fde91a00159412092e39a591d3c7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3083f9e37888b90f9bf73101c23b0d27') in 0.011022 seconds 
+  Import took 0.016865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014921 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSScaleInvertAxis.cs
+  artifactKey: Guid(1989059c40a2d4edb901d84ae76579cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Control/DSScaleInvertAxis.cs using Guid(1989059c40a2d4edb901d84ae76579cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db45987d9d655096712dbc05e7460e3b') in 0.034532 seconds 
+  Import took 0.052192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028575 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Scripts/CheeseWASDMover.cs
+  artifactKey: Guid(2fe1ce143cc7f421a92f39c107287c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Scripts/CheeseWASDMover.cs using Guid(2fe1ce143cc7f421a92f39c107287c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c16d1c8f083f1ce7ecc204e3c247ae6') in 0.032892 seconds 
+  Import took 0.058173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016600 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/ProcGenStuff/SpawningEvenlyAcross/SpawningEvenlyAcross.cs
+  artifactKey: Guid(233a9c7ca8a714a3a81e76101d47d5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/ProcGenStuff/SpawningEvenlyAcross/SpawningEvenlyAcross.cs using Guid(233a9c7ca8a714a3a81e76101d47d5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ace7b4a309addcc3ce7fd55ea0fd3ac') in 0.024394 seconds 
+  Import took 0.042211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018344 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/EditorScreenshotTaker.cs
+  artifactKey: Guid(0c054225954294b69b415fa69b49e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/EditorScreenshotTaker.cs using Guid(0c054225954294b69b415fa69b49e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3525e05cb63f1a4635db341a54f5ed5e') in 0.026804 seconds 
+  Import took 0.035265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032596 seconds.
+  path: Assets/makegeo-master/makegeo/Assets/Datasack/Audio/DSAudioSetLoop.cs
+  artifactKey: Guid(bb1e24b7d0a014ed795522a693dcbb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/makegeo-master/makegeo/Assets/Datasack/Audio/DSAudioSetLoop.cs using Guid(bb1e24b7d0a014ed795522a693dcbb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0735bf4864c1ae9865ad5c248a0d84') in 0.015365 seconds 
+  Import took 0.021420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 333.277430 seconds.
+  path: Assets/MassSpringSystem/Assets
+  artifactKey: Guid(ab06fdad445415b4e96715183200613a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets using Guid(ab06fdad445415b4e96715183200613a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f376a6e75804f1de3f3b227db3b09843') in 0.021860 seconds 
+  Import took 0.099502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.524468 seconds.
+  path: Assets/MassSpringSystem/Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(f04afb6a5251bf049bad260f6f0f5057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/UniversalRenderPipelineAsset.asset using Guid(f04afb6a5251bf049bad260f6f0f5057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123c622e791bd623d78a13a5a8e0f5fb') in 0.034056 seconds 
+  Import took 0.057888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/MassSpringSystem/Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(9d6c5d83bf4eaba43b598dcff1f208f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(9d6c5d83bf4eaba43b598dcff1f208f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113facadaa7ce6bf4761711e8510a780') in 0.058296 seconds 
+  Import took 0.075329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.140394 seconds.
+  path: Assets/MassSpringSystem/Assets/Scripts
+  artifactKey: Guid(630cece947075ac499b1383de30ec98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Scripts using Guid(630cece947075ac499b1383de30ec98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8361e233eead4b53f4d0af686a37447') in 0.021278 seconds 
+  Import took 0.059595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.762959 seconds.
+  path: Assets/MassSpringSystem/Assets/Scripts/SpringSystem
+  artifactKey: Guid(74b526f20ba095a468789b43f06c44a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassSpringSystem/Assets/Scripts/SpringSystem using Guid(74b526f20ba095a468789b43f06c44a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066413fad511aeddd6e9cad44ef57b81') in 0.135096 seconds 
+  Import took 0.179180 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

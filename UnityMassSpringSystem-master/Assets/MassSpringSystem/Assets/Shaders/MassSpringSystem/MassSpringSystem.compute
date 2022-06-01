@@ -1,0 +1,222 @@
+﻿/**
+ * Copyright 2017 Sean Soraghan
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+ * documentation files (the "Software"), to deal in the Software without restriction, including without 
+ * limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of 
+ * the Software, and to permit persons to whom the Software is furnished to do so, subject to the following 
+ * conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all copies or substantial 
+ * portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT 
+ * LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO 
+ * EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER 
+ * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE 
+ * USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+#pragma kernel CSMainVel
+#pragma kernel CSMainForces
+
+#define THREAD_GROUP_SIZE_X 8
+#define THREAD_GROUP_SIZE_Y 8
+
+struct Position
+{
+    float3 pos;
+};
+
+struct Velocity
+{
+    float3 vel;
+};
+
+struct Force
+{
+    float3 force;
+};
+
+struct Properties
+{
+    float mass;
+    float damping;
+    float springStiffness;
+    float springLength;
+    float gravity;
+};
+
+struct DeltaTime
+{
+    float deltaTime;
+};
+
+struct Sphere
+{
+    float radius;
+    float originX;
+    float originY;
+    float originZ;
+};
+
+RWStructuredBuffer<Position>   posBuffer;
+RWStructuredBuffer<Velocity>   velBuffer;
+RWStructuredBuffer<Force>      externalForcesBuffer;
+RWStructuredBuffer<Properties> propertiesBuffer;
+RWStructuredBuffer<DeltaTime>  deltaTimeBuffer;
+RWStructuredBuffer<Sphere>  sphereBuffer;
+RWStructuredBuffer<Position> restPosBuffer;
+RWStructuredBuffer<Force> forcesBuffer;
+
+
+
+
+float3 ComputeSpringForce(const int idx, const int nIdx)
+{
+    const uint resX = 24 *THREAD_GROUP_SIZE_X;
+    const uint resY = 24 *THREAD_GROUP_SIZE_Y;
+    const uint size = resX*resY;
+    const float  damping       = propertiesBuffer[0].damping;
+    const float  stiffness     = propertiesBuffer[0].springStiffness;
+    const float  springLength  = propertiesBuffer[0].springLength;
+    if(nIdx > size-1) return float3(0,0,0);
+       const float3 dist = posBuffer[nIdx].pos - posBuffer[idx].pos;
+       const float dist_length = length(dist);
+       const float3 vel_Dif = velBuffer[nIdx].vel - velBuffer[idx].vel;
+       const float divisor = dist_length == 0.0f ? springLength : dist_length; // avoid division by 0.
+    float3 force = (stiffness * (divisor - springLength) + damping * (dot(vel_Dif, dist) / divisor)) * (dist / divisor);
+
+    return force;
+}
+
+[numthreads (THREAD_GROUP_SIZE_X, THREAD_GROUP_SIZE_Y, 1)]
+void CSMainVel (uint3 threadId : SV_DispatchThreadID)
+{
+    const uint resX = 24 *THREAD_GROUP_SIZE_X;
+
+    
+        const float  mass = propertiesBuffer[0].mass;
+    
+        const uint idx = threadId.x + threadId.y * resX;
+    
+    
+        const float3 force = forcesBuffer[idx].force + externalForcesBuffer[idx].force;
+        //m = fa, a = f/m
+        const float3 acceleration    = force / (mass == 0.0f ? 1.0f : mass) + propertiesBuffer[0].gravity;
+        const float        delta           = deltaTimeBuffer[0].deltaTime;
+        const float3 vDelta = acceleration * delta;
+        const float3 newVel = velBuffer[idx].vel + vDelta;
+        velBuffer[idx].vel = newVel;
+
+        //calculate new positions given new velocities
+        const float posDelta  = deltaTimeBuffer[0].deltaTime;
+        //externalForcesBuffer[idx].force = float3 (0.0f, 0.0f, 0.0f);
+        
+        if (idx >= resX)
+            posBuffer[idx].pos = posBuffer[idx].pos + velBuffer[idx].vel * posDelta;
+        
+        // ref --> https://www.mdpi.com/2076-3417/11/17/8255/htm
+        const float sphereRadius = sphereBuffer[0].radius;
+        const float3 sphereOrigin = float3(sphereBuffer[0].originX, sphereBuffer[0].originY, sphereBuffer[0].originZ);
+        float dist = distance(sphereOrigin, posBuffer[idx].pos);
+        // float dist = abs(sphereOrigin - posBuffer[idx].pos);
+        if(dist < sphereRadius)
+        {
+        // externalForcesBuffer[idx].force = normalize(sphereOrigin - posBuffer[idx].pos) * (sphereCollisionForce - dist);
+        // posBuffer[idx].pos = sphereOrigin + normalize(dist) * (sphereRadius);
+        velBuffer[idx].vel = normalize(dist) + normalize(newVel);
+        }
+    
+    
+}
+
+
+[numthreads (THREAD_GROUP_SIZE_X, THREAD_GROUP_SIZE_Y, 1)]
+void CSMainForces (uint3 threadId : SV_DispatchThreadID)
+{
+    const int resX = 24 *THREAD_GROUP_SIZE_X;
+    const int resY = 24 *THREAD_GROUP_SIZE_Y;
+
+        const int idx = threadId.x + threadId.y * resX;
+        int i = threadId.x;
+        int j = threadId.y;
+    
+        int northNeighbour = (i) + (j+1) * resX;    
+        bool northMultiplier = (idx > resX);
+    
+        int southNeighbour = (i) + (j-1) * resX;
+        bool southMultiplier = (j-1 < resY);
+    
+        int eastNeighbour = (i+1) + (j) * resX;
+        bool eastMultiplier =  ((idx + 1)%resX > 0);
+    
+        int westNeighbour = (i-1) + (j) * resX;
+        bool westMultiplier = (idx  % resX> 0);
+    
+        int northEastNeighbour = (i+1) + (j+1) * resX;
+        bool northEastMultiplier = (idx > resX && (idx + 1)%resX);
+    
+        int southEastNeighbour = (i+1) + (j-1) * resX;
+        bool southEastMultiplier = (j-1 < resY && (idx + 1)%resX > 0);
+    
+        int southWestNeighbour = (i-1) + (j-1) * resX;
+        bool southWestMultiplier = (j-1 < resY && idx  % resX > 0);
+    
+        int northWestNeighbour = (i-1) + (j+1) * resX;
+        bool northWestMultiplier = (idx > resX && idx  % resX > 0);
+    
+        int northBendNeighbour = (i) + (j+2) * resX;
+        bool northBendMultiplier = (idx > resX*2);
+    
+        int southBendNeighbour = (i) + (j-2) * resX;
+        bool southBendMultiplier = (j-2 < resY);
+    
+        int eastBendNeighbour = (i+2) + (j) * resX;
+        //bool eastBendMultiplier = ((i + 2)%resX > 0);
+        bool eastBendMultiplier = (idx%resX+2)<resX;
+    
+        int westBendNeighbour = (i-2) + (j) * resX;
+        //bool westBendMultiplier = ((i - 1) % resX > 0);
+        bool westBendMultiplier = (idx%resX-2)>=0;
+    
+    
+        /*
+        const float3 northForce      = ComputeSpringForce(idx, northNeighbour);
+        const float3 northEastForce  = ComputeSpringForce(idx, northEastNeighbour);
+        const float3 eastForce       = ComputeSpringForce(idx, eastNeighbour);
+        const float3 southEastForce  = ComputeSpringForce(idx, southEastNeighbour);
+        const float3 southForce      = ComputeSpringForce(idx, southNeighbour);
+        const float3 southWestForce  = ComputeSpringForce(idx, southWestNeighbour);
+        const float3 westForce       = ComputeSpringForce(idx, westNeighbour);
+        const float3 northWestForce  = ComputeSpringForce(idx, northWestNeighbour);
+        const float3 northBendForce  = ComputeSpringForce(idx, northBendNeighbour);
+        const float3 eastBendForce   = ComputeSpringForce(idx, eastBendNeighbour );
+        const float3 westBendForce   = ComputeSpringForce(idx, southBendNeighbour);
+        const float3 southBendForce  = ComputeSpringForce(idx, westBendNeighbour);
+        */
+        const float3 zer0 = float3(0,0,0);
+    
+    
+        const float3 northForce      = northMultiplier ? ComputeSpringForce(idx, northNeighbour) : zer0;
+        const float3 northEastForce  = northEastMultiplier ? ComputeSpringForce(idx, northEastNeighbour): zer0;
+        const float3 eastForce       = eastMultiplier ? ComputeSpringForce(idx, eastNeighbour): zer0;
+        const float3 southEastForce  = southEastMultiplier ? ComputeSpringForce(idx, southEastNeighbour): zer0;
+        const float3 southForce      = southMultiplier ? ComputeSpringForce(idx, southNeighbour): zer0;
+        const float3 southWestForce  = southWestMultiplier ? ComputeSpringForce(idx, southWestNeighbour): zer0;
+        const float3 westForce       = westMultiplier ? ComputeSpringForce(idx, westNeighbour): zer0;
+        const float3 northWestForce  = northWestMultiplier ? ComputeSpringForce(idx, northWestNeighbour): zer0;
+        const float3 northBendForce  = northBendMultiplier ? ComputeSpringForce(idx, northBendNeighbour): zer0;
+        const float3 eastBendForce   = eastBendMultiplier ? ComputeSpringForce(idx, eastBendNeighbour ): zer0;
+        const float3 southBendForce   = southBendMultiplier ? ComputeSpringForce(idx, southBendNeighbour): zer0;
+        const float3 westBendForce  = westBendMultiplier ? ComputeSpringForce(idx, westBendNeighbour): zer0;
+
+        float3 internalForce   = northForce + eastForce + westForce + southForce + 
+                                        northEastForce + northWestForce + southEastForce + southWestForce
+                                        + northBendForce + eastBendForce + southBendForce + westBendForce;
+        //float3 finalForce = idx > resX ? internalForce : 0; 
+    //float3 finalForce = idx > resX ? zer0 : finalForce;
+    //float3 finalForce = internalForce;
+        forcesBuffer[idx].force = internalForce;
+    
+}
